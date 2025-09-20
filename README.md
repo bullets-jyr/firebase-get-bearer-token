@@ -1,6 +1,8 @@
 # Servidor para generar un Bearer Token de Firebase
 
-[Documentación oficial de Firebase](https://firebase.google.com/docs/cloud-messaging/auth-server)
+[Documentación oficial de Firebase auth-server](https://firebase.google.com/docs/cloud-messaging/auth-server)
+
+[Documentación oficial de Firebase send-message](https://firebase.google.com/docs/cloud-messaging/send-message?hl=ko#rest)
 
 ## Pasos
 

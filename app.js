@@ -10,7 +10,6 @@ const port = 3000;
 const MESSAGING_SCOPE = 'https://www.googleapis.com/auth/firebase.messaging';
 const SCOPES = [MESSAGING_SCOPE];
 
-
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
@@ -40,9 +39,6 @@ app.get('/', async(req, res) => {
 
     res.json(token);
 });
-
-
-
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
